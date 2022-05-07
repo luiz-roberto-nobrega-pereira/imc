@@ -9,7 +9,7 @@ public class Main4 {
 		System.out.println();
 		System.out.println("Informe o seu nome: ");
 		String nome = sc.nextLine();
-		System.out.println("Cadastre uma senha com quatro números: ");
+		System.out.println("Cadastre uma senha com quatro nï¿½meros: ");
 		int senha = sc.nextInt();
 		System.out.println("Informe a sua senha cadastrada: ");
 		int senhaCadastrada = sc.nextInt();
@@ -25,7 +25,7 @@ public class Main4 {
 		double imc = peso/(altura*altura);
 				
 		if(imc >= 40) {
-			System.out.printf("IMC: %.2f - Obesidade mórbida",imc);
+			System.out.printf("IMC: %.2f - Obesidade mï¿½rbida",imc);
 		}
 		else if(imc >= 35) {
 			System.out.printf("IMC: %.2f - Obesidade ",imc);
@@ -33,7 +33,7 @@ public class Main4 {
 		else if(imc >= 30) {
 			System.out.printf("IMC: %.2f - Sobrepeso",imc);
 		}
-		else if(imc >= 25) {
+		else if(imc >= 23) {
 			System.out.printf("IMC: %.2f - Peso normal",imc);
 		}
 		else {
